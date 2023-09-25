@@ -3,6 +3,9 @@
 	"version": "0.3.6",
 	"description": "TypeScript type definitions for new JavaScript stuff that isn't yet in TypeScript's standard type definitions",
 	"main": "./index.d.ts",
+	"scripts": {
+		"dev": "tsc --watch"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/BenjaminAster/TypeScript-types-for-new-JavaScript.git"
@@ -12,5 +15,8 @@
 	"bugs": {
 		"url": "https://github.com/BenjaminAster/TypeScript-types-for-new-JavaScript/issues"
 	},
-	"homepage": "https://github.com/BenjaminAster/TypeScript-types-for-new-JavaScript#readme"
+	"homepage": "https://github.com/BenjaminAster/TypeScript-types-for-new-JavaScript#readme",
+	"devDependencies": {
+		"typescript": "^5.2.2"
+	}
 }

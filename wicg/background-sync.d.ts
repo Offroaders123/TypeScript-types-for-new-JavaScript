@@ -26,6 +26,7 @@ interface ServiceWorkerGlobalScopeEventMap {
 }
 
 interface SyncEvent extends ExtendableEvent {
+	// @ts-expect-error - needs a return type annotation for the constructor
 	new(type: string, init: SyncEventInit);
 	readonly tag: string;
 	readonly lastChance: boolean;
